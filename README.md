@@ -1,36 +1,31 @@
-# LicensedV1 — Bruce Predatory
+# Bruce Predatory — Manual
 
-**CLTX4 / ClintXProduction**
+## LicensedV1
 
-GitHub-ready documentation package for the **Bruce Predatory** project.
+Bruce Predatory is an ESP32/CYD-based experimental hardware project documented under the CLTX4 brand.
 
-## Included
+### Project Goals
 
-- `index.html` — GitHub Pages landing page
-- `docs/BOM.md` — component/BOM reference
-- `manual/BUILD-GUIDE.md` — high-level build and inspection guide
-- `manual/README.md` — project manual overview
-- `LICENSE.md` — documentation license and responsible-use terms
+- Hardware experimentation
+- Embedded programming
+- Display/UI development
+- Modular electronics
+- Learning about wireless and peripheral interfaces
+- Authorized security research
 
-## Repository
+### Before Building
 
-Owner/account: `ClintXProduction`  
-Repository: `LicensedV1`
+Read the BOM and verify:
+1. Voltage requirements.
+2. Pin assignments for the exact module revision.
+3. Connector orientation.
+4. Power-source capability.
+5. Module compatibility.
 
-## GitHub Pages
+### Maintenance
 
-1. Create/open the `LicensedV1` repository.
-2. Upload the contents of this ZIP.
-3. Go to **Settings → Pages**.
-4. Select the repository branch and `/ (root)`.
-5. Save and open the generated GitHub Pages URL.
+Keep the firmware and hardware notes synchronized with the actual revision being used. Record board revisions and replacement modules so future troubleshooting is easier.
 
-## Important
+### Responsible Use
 
-This package is documentation-first. Radio, wireless, infrared, NFC/RFID, and other modules must only be used on systems, devices, and frequencies where you have authorization. Do not use the project to disrupt communications, bypass access controls, or interfere with other people's devices.
-
-## Branding
-
-**CLTX4**  
-**Bruce Predatory**  
-**LicensedV1**
+Only test against hardware, networks, radio environments, and devices for which you have explicit authorization. Do not use the project to jam, disrupt, intercept, impersonate, or bypass systems belonging to other people.
